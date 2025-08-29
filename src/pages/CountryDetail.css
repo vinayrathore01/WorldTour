@@ -1,0 +1,127 @@
+/* Country Detail Page Styling */
+.country-detail {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.country-detail h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.country-detail .flag {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.country-detail p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 10px 0;
+}
+
+.country-detail strong {
+  color: #000;
+}
+
+/* Back button */
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .country-detail {
+    padding: 20px;
+  }
+
+  .country-detail h2 {
+    font-size: 1.6rem;
+  }
+
+  .country-detail .flag {
+    width: 200px;
+  }
+
+  .country-detail p {
+    font-size: 1rem;
+  }
+}
+/* Loader Container */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+/* Spinner Animation */
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #eee;
+  border-top: 6px solid #0077ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error Message */
+.error {
+  text-align: center;
+  font-size: 1.3rem;
+  color: red;
+  margin-top: 40px;
+}
+
+/* Country Detail Styling */
+.country-detail {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background: #fff;
+}
+
+.country-detail img {
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.country-detail h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  color: #222;
+}

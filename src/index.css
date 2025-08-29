@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0d1b2a;
+  padding: 15px 30px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.explore-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #1d3557;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* World Image */
+.hero-img img {
+  max-width: 400px;
+}
+
+/* Sections (About, Countries, Contact) */
+.about, .countries, .contact {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Grids for facts & countries */
+.facts-grid, .country-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Cards */
+.fact-card, .country-card {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}

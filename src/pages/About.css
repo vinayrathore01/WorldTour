@@ -1,0 +1,50 @@
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f8f9fa;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #222;
+  font-weight: bold;
+}
+
+/* Facts grid */
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Fact Card */
+.fact-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.fact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.fact-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+
+.fact-card p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
